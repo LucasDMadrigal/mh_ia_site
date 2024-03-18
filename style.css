@@ -1,0 +1,148 @@
+:root {
+  --main-background: #d1d1d1;
+  --green-background: #4caf50;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: var(--main-background);
+  padding-bottom: 3rem;
+}
+
+header {
+  height: 20vh;
+  width: 100%;
+  background-image: url(./img/redes-neuronales.png);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1rem;
+}
+
+header h1 {
+  margin: 2rem;
+}
+header nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+header nav a {
+  color: wheat;
+  text-decoration: none;
+}
+
+.about--container {
+  padding: 2rem;
+}
+
+.articles {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.articles article {
+  height: 250px;
+  width: 215px;
+  background-color: var(--main-background);
+  margin: 1rem;
+  border-radius: 25px;
+  box-shadow: 2px 4px 7px 0px #7f7f7f;
+}
+
+.articles article img {
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  height: 50%;
+}
+
+.articles article .button--container {
+  position: relative;
+  top: 20%;
+  right: 75%;
+  transform: translateX(100%);
+}
+
+aplications--container {
+  display: inline-block;
+  margin-top: 5rem;
+}
+
+.aplications--list {
+  display: inline-block;
+  text-align: start;
+}
+
+.aplications--list li {
+  list-style: inside;
+}
+
+.products--container{
+  display: inline-block;
+  margin-top: 2rem;
+}
+
+table{
+  border-collapse: collapse;
+  align-self: center;
+}
+
+table td{
+  padding: 0.2rem 1rem;
+  text-align:start ;
+}
+
+.contact--container{
+  position: relative;
+  bottom: 0;
+  transform: translateY(100%);
+  width: 100%;
+  background-color: var(--green-background);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.email--container{
+  border: 1px solid var(--main-background);
+  padding: 0.3rem;
+}
+
+.email--container label{
+  color: white;
+  background-color: var(--green-background);
+}
+
+.suscribe--label{
+  position: absolute;
+  top: 0px;
+  transform: translateY(100%);
+  font-size: 10px;
+}
+
+.email--label{
+  font-size: 0.7rem;
+}
+
+.contact{
+  display: flex;
+}
+
+.contact a{
+  margin: 0 1rem;
+}
